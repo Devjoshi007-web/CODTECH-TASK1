@@ -1,0 +1,72 @@
+body {
+ background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+ font-family: 'Poppins', sans-serif;
+ background-image: url(simon-english-48nerZQCHgo-unsplash.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+form {
+ flex-direction: column;
+ background-color: rgba(4, 5, 5, 0.5);
+ color: yellow;
+ display:-webkit-flex;
+ width: 500px;
+ height: 1100px;
+ margin: auto;
+ align-items: center;
+ margin-top: 5px;
+ border: 1px solid black;
+ text-align: center;
+ box-shadow: inset -5px -5px rgba(0,0,0,0.5);
+ border-radius: 25px;
+ }
+#form h1 {
+ color: #0f2027;
+ text-align: center;
+}
+#form button {
+ padding: 10px;
+ margin-top: 10px;
+ width: 40%;
+ color: white;
+background-color: rgb(41, 57, 194);
+ border: none;
+ border-radius: 10px;
+
+}
+#form button:hover{
+ cursor:pointer;
+ background-color: rgba(255,255,255,0.1);
+ color: white;
+
+}
+.input-control {
+ display: flex;
+ flex-direction: column;
+ width: 70%;
+ border-radius: 30%;
+}
+.input-control input {
+ border: 2px solid #f0f0f0;
+ border-radius: 4px;
+ display: block;
+ font-size: 12px;
+ padding: 10px;
+ width: 100%;
+
+}
+.input-control input:focus {
+ outline: 0;
+}
+.input-control.success input {
+ border-color: #09c372;
+} 
+input-control.error input {
+ border-color: #ff3860;
+}
+.input-control .error {
+ color: #7b0000cd;
+ font-size: 16px;
+ height: 13px;
+}
